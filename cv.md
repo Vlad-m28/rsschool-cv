@@ -15,3 +15,5 @@ function multiply(a, b){
 ```
 6. Example of a completed project "goTrip":
 https://github.com/Vlad-m28/goTrip.git
+7. NRNU MEPhI, master's degree
+8. English level: Pre-Intermediate
