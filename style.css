@@ -434,7 +434,7 @@ footer p {
 .js-course {
   display: flex;
   justify-content: center;
-  gap: 5px;
+  gap: 10px;
   padding-bottom: 10px;
 }
 
