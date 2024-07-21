@@ -1,333 +1,179 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    <header>
-      <nav id="desktop-nav">
-        <div class="logo">Murylev Vlad</div>
-        <div>
-          <ul class="nav-links">
-            <li><a href="#about">About</a></li>
-            <li><a href="#experience">Experience</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-        </div>
-      </nav>
-      <nav id="hamburger-nav">
-        <div class="logo"></div>
-        <div class="hamburger-menu">
-          <div class="hamburger-icon" onclick="toggleMenu()">
-            <span></span>
-            <span></span>
-            <span></span>
-          </div>
-          <ul class="menu-links">
-            <li><a href="#about" onclick="toggleMenu()">About</a></li>
-            <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
-            <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
-            <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
-          </ul>
-        </div>
-      </nav>
-    </header>
-    <main id="profile">
-      <div class="section__pic-container">
-        <img src="./assets/profile-pic.png" alt="Profile picture">
-      </div>
-      <div class="section__text">
-        <p class="section__text__p1">Hi, I'm</p>
-        <h1 class="title">Murylev Vlad</h1>
-        <p class="section__text__p2">Frontend Developer && <br> Motion Designer</p>
-        <div class="btn-container">
-          <button
-            class="btn btn-color-2"
-            onclick="location.href='https://vlad-m28.github.io/rsschool-cv/cv'"
-          >
-            Open CV
-          </button>
-          <button class="btn btn-color-1" onclick="location.href='./#contact'">
-            Contact Info
-          </button>
-        </div>
-        <div id="socials-container">
-          <img src="./assets/github.png" alt="My Github profile" class="icon" onclick="location.href='https://github.com/Vlad-m28'">
-          <img src="./assets/behance.png" alt="My Behance profile" class="icon" onclick="location.href='https://www.behance.net/'">
-        </div>
-      </div>
-    </main>
-    <section id="about">
-      <p class="section__text__p1">Get To Know More</p>
-      <h2 class="title">About Me</h2>
-      <div class="section-container">
-        <div class="about-details-container">
-          <div class="about-containers">
-            <div class="details-container">
-              <img
-                src="./assets/experience.png"
-                alt="Experience icon"
-                class="icon"
-              >
-              <h3>Experience</h3>
-              <p>Half a year <br>Frontend Development</p>
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <section class="main">
+        <div class="container">
+            <header class="header">
+                    <nav class="nav">
+                        <div class="nav__logo">
+                            <a href="./index.html">
+                                <h1 class="text-h1">Cozy House</h1>
+                                <p>Shelter for pets in Boston</p>
+                            </a>
+                        </div>
+                        <ul class="nav__list">
+                            <li><a class="active-nav" href="#!">About the shelter</a></li>
+                            <li><a href="#!">Our pets</a></li>
+                            <li><a href="#!">Help the shelter</a></li>
+                            <li><a href="#!">Contacts</a></li>
+                        </ul>
+                    </nav>
+            </header>
+            <div class="not-only">
+                <div class="not-only__content">
+                    <h2 class="text-h2">Not only people <br> need a house</h2>
+                    <p>We offer to give a chance to a little and nice puppy with an extremely wide and open heart. He or she will love you more than anybody else in the world, you will see!</p>
+                    <button class="btn" onclick="document.location='#!'" target="_blank">Make a friend</button>
+                </div>
+                <img src="./assets/start-screen-puppy.png" alt="Dog">
             </div>
-            <div class="details-container">
-              <img
-                src="./assets/experience.png"
-                alt="Experience icon"
-                class="icon"
-              >
-              <h3>Experience</h3>
-              <p>2 years + <br>Motion designer</p>
-            </div>
-            <div class="details-container">
-              <img
-                src="./assets/experience.png"
-                alt="Experience icon"
-                class="icon"
-              >
-              <h3>Experience</h3>
-              <p>4 years +<br>Engineer</p>
-            </div>
-            <div class="details-container">
-              <img
-                src="./assets/education.png"
-                alt="Education icon"
-                class="icon"
-              >
-              <h3>Education</h3>
-              <p>NRNU MEPhI<br>Masters Degree</p>
-            </div>
-          </div>
-          <div class="text-container">
-            <p>
-              The goal of my resume is to obtain a position as a Frontend Developer, where I can apply my skills and experience in creating high-quality user interfaces using modern JavaScript frameworks and other development tools. I'm interested in developing my skills and desire to learn.
-            </p>
-          </div>
         </div>
-      </div>
-      <img
-        src="./assets/arrow.png"
-        alt="Arrow icon"
-        class="icon arrow"
-        onclick="location.href='./#experience'"
-      >
     </section>
-    <section id="experience">
-      <p class="section__text__p1">Explore My</p>
-      <h2 class="title">Experience</h2>
-      <div class="experience-details-container">
-        <div class="about-containers">
-          <div class="details-container">
-            <h2 class="experience-sub-title">Frontend Development</h2>
-            <div class="article-container">
-              <article>
-                <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
-                <div>
-                  <h3>HTML</h3>
-                  <p>Basic</p>
+
+    <section class="about">
+        <div class="container">
+            <div class="about__content">
+                <img src="./assets/about-pets.png" alt="Pets">
+                <div class="about__text">
+                    <h3 class="text-h3">About the shelter <br> “Cozy House”</h3>
+                    <p>Currently we have 121 dogs and 342 cats on our hands and statistics show that only 20% of them will find a family. The others will continue to live with us and will be waiting for a lucky chance to become dearly loved.</p>
+                    <p>We feed our wards with the best food and make sure that they do not get sick, feel comfortable (including psychologically) and well. We are supported by 87 volunteers and 28 employees of various skill levels. About 12% of the animals are taken by the shelter staff. Taking care of the animals, they become attached to the pets and would hardly ever leave them alone.</p>
                 </div>
-              </article>
-              <article>
-                <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
-                <div>
-                  <h3>CSS</h3>
-                  <p>Basic</p>
-                </div>
-              </article>
-              <article>
-                <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
-                <div>
-                  <h3>JavaScript</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-              <article>
-                <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
-                <div>
-                  <h3>Git</h3>
-                  <p>Basic</p>
-                </div>
-              </article>
             </div>
-          </div>
-          <div class="details-container">
-            <h2 class="experience-sub-title">Motion designer</h2>
-            <div class="article-container">
-              <article>
-                <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
-                <div>
-                  <h3>Adobe After Effects</h3>
-                  <p>Basic</p>
-                </div>
-              </article>
-              <article>
-                <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
-                <div>
-                  <h3>Adobe Illustrator</h3>
-                  <p>Basic</p>
-                </div>
-              </article>
-              <article>
-                <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
-                <div>
-                  <h3>Adobe Photoshop</h3>
-                  <p>Basic</p>
-                </div>
-              </article>
-              <article>
-                <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
-                <div>
-                  <h3>Blender</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-            </div>
-          </div>
         </div>
-      </div>
-      <img
-        src="./assets/arrow.png"
-        alt="Arrow icon"
-        class="icon arrow"
-        onclick="location.href='./#projects'"
-      >
     </section>
-    <section id="projects">
-      <p class="section__text__p1">Browse My Recent</p>
-      <h2 class="title">Projects</h2>
-      <div class="experience-details-container">
-        <div class="about-containers">
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="./assets/project-1.png"
-                alt="Project 1"
-                class="project-img"
-              >
+
+    <section class="our-friends">
+        <div class="container">
+            <div class="our-friends__content">
+                <h3 class="text-h3">Our friends who <br> are looking for a house</h3>
+                <div class="our-friends__slider">
+                    <div class="our-friends__slider-card">
+                        <img src="./assets/pets-katrine.png" alt="Cat">
+                        <p>Katrine</p>
+                        <button class="btn" onclick="document.location='#!'" target="_blank">Learn more</button>
+                    </div>
+                    <div class="our-friends__slider-card">
+                        <img src="./assets/pets-jennifer.png" alt="Dog">
+                        <p>Jennifer</p>
+                        <button class="btn" onclick="document.location='#!'" target="_blank">Learn more</button>
+                    </div>
+                    <div class="our-friends__slider-card">
+                        <img src="./assets/pets-woody.png" alt="Dog">
+                        <p>Woody</p>
+                        <button class="btn" onclick="document.location='#!'" target="_blank">Learn more</button>
+                    </div>
+                    <div class="arrow arrow-left">
+                        <img src="./assets/Arrow.png" alt="Arrow">
+                    </div>
+                    <div class="arrow arrow-right">
+                        <img src="./assets/Arrow.png" alt="Arrow">
+                    </div>
+                </div>
+                <button class="btn" onclick="document.location='#!'" target="_blank">Get to know the rest</button>
             </div>
-            <h2 class="experience-sub-title project-title">GoTrip</h2>
-            <div class="btn-container">
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/Vlad-m28/goTrip'"
-              >
-                Github
-              </button>
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://vlad-m28.github.io/goTrip/'"
-              >
-                Live Demo
-              </button>
-            </div>
-          </div>
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="./assets/project-2.png"
-                alt="Project 2"
-                class="project-img"
-              >
-            </div>
-            <h2 class="experience-sub-title project-title">Travel-Header</h2>
-            <div class="btn-container">
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/Vlad-m28/Travel-Header'"
-              >
-                Github
-              </button>
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://vlad-m28.github.io/Travel-Header/'"
-              >
-                Live Demo
-              </button>
-            </div>
-          </div>
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="./assets/project-3.png"
-                alt="Project 3"
-                class="project-img"
-              >
-            </div>
-            <h2 class="experience-sub-title project-title">Coffee-house</h2>
-            <div class="btn-container">
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/Vlad-m28/coffee-house'"
-              >
-                Github
-              </button>
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://vlad-m28.github.io/coffee-house/home.html'"
-              >
-                Live Demo
-              </button>
-            </div>
-          </div>
         </div>
-      </div>
-      <img
-        src="./assets/arrow.png"
-        alt="Arrow icon"
-        class="icon arrow"
-        onclick="location.href='./#contact'"
-      >
     </section>
-    <section id="contact">
-      <p class="section__text__p1">Get in Touch</p>
-      <h2 class="title">Contact Me</h2>
-      <div class="contact-info-upper-container">
-        <div class="contact-info-container">
-          <img
-            src="./assets/email.png"
-            alt="Email icon"
-            class="icon contact-icon email-icon"
-          >
-          <p><a href="mailto:vlad.murylyv@mail.ru">vlad.murylyv@mail.ru</a></p>
+
+    <section class="help">
+        <div class="container">
+            <div class="help__content">
+                <h3 class="text-h3">How you can help <br> our shelter</h3>
+                <div class="help__list">
+                    <div class="help__list-item">
+                        <img src="./assets/Vector_1.svg" alt="Food">
+                        <h4 class="text-h4">Pet food</h4>
+                    </div>
+                    <div class="help__list-item">
+                        <img src="./assets/Vector_2.svg" alt="Transportation">
+                        <h4 class="text-h4">Transportation</h4>
+                    </div>
+                    <div class="help__list-item">
+                        <img src="./assets/Vector_3.svg" alt="Toys">
+                        <h4 class="text-h4">Toys</h4>
+                    </div>
+                    <div class="help__list-item">
+                        <img src="./assets/Vector_4.svg" alt="Bowls">
+                        <h4 class="text-h4">Bowls and cups</h4>
+                    </div>
+                    <div class="help__list-item">
+                        <img src="./assets/Vector_5.svg" alt="Shampoos">
+                        <h4 class="text-h4">Shampoos</h4>
+                    </div>
+                    <div class="help__list-item">
+                        <img src="./assets/Vector_6.svg" alt="Vitamins">
+                        <h4 class="text-h4">Vitamins</h4>
+                    </div>
+                    <div class="help__list-item">
+                        <img src="./assets/Vector_7.svg" alt="Medicines">
+                        <h4 class="text-h4">Medicines</h4>
+                    </div>
+                    <div class="help__list-item">
+                        <img src="./assets/Vector_8.svg" alt="Collars">
+                        <h4 class="text-h4">Collars / leashes</h4>
+                    </div>
+                    <div class="help__list-item">
+                        <img src="./assets/Vector_9.svg" alt="Sleeping_areas">
+                        <h4 class="text-h4">Sleeping areas</h4>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="contact-info-container">
-          <img
-            src="./assets/discord.png"
-            alt="LinkedIn icon"
-            class="icon contact-icon"
-          >
-          <p>Vlad_mrlv</p>
-        </div>
-      </div>
     </section>
-    <footer>
-      <nav>
-        <div class="nav-links-container">
-          <ul class="nav-links">
-            <li><a href="#about">About</a></li>
-            <li><a href="#experience">Experience</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
+
+    <section class="in-addition">
+        <div class="container">
+            <div class="in-addition__content">
+                <img src="./assets/donation-dog.png" alt="Dog">
+                <div class="in-addition__info">
+                    <h3 class="text-h3">You can also <br> make a donation</h3>
+                    <h5 class="text-h5">Name of the bank / Type of bank account</h5>
+                    <div class="in-addition__info-card">
+                        <img src="./assets/credit-card.svg" alt="Credit Card">
+                        <h4 class="text-h4">8380 2880 8028 8791 7435</h4>
+                    </div>
+                    <p>Legal information and lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas a ipsum at libero sagittis dignissim sed ac diam. Praesent ultrices maximus tortor et vulputate. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
+                </div>
+            </div>
         </div>
-      </nav>
-      <div class="js-course">
-        <div id="socials-container">
-            <img src="./assets/js-secondary.webp" alt="js" class="icon" onclick="location.href='https://rs.school/courses/javascript-ru'">
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__info">
+                    <div class="footer__info-contacts">
+                        <h3 class="text-h3">For questions and suggestions</h3>
+                        <div class="footer__info-contacts-1">
+                            <img src="./assets/mail.svg" alt="">
+                            <h4 class="text-h4">email@shelter.com</h4>
+                        </div>
+                        <div class="footer__info-contacts-2">
+                            <img src="./assets/phone.svg" alt="">
+                            <h4 class="text-h4">+13 674 567 75 54</h4>
+                        </div>
+                    </div>
+                    <div class="footer__info-place">
+                        <h3 class="text-h3">We are waiting <br> for your visit</h3>
+                        <div class="footer__info-place-1">
+                            <img src="./assets/pin.svg" alt="Pin">
+                            <h4 class="text-h4">1 Central Street, Boston (entrance from the store)</h4>
+                        </div>
+                        <div class="footer__info-place-2">
+                            <img src="./assets/pin.svg" alt="Pin">
+                            <h4 class="text-h4">18 South Park, London</h4>
+                        </div>
+                    </div>
+                </div>
+                <img class="footer__img" src="./assets/footer-puppy.png" alt="Dog">
+            </div>
         </div>
-        <div id="socials-container">
-          <img src="./assets/github.png" alt="My Github profile" class="icon" onclick="location.href='https://github.com/Vlad-m28'">
-        </div>
-      </div>
-      <p>Copyright &#169; 2024. All Rights Reserved.</p>
     </footer>
-    <script src="script.js"></script>
-  </body>
+</body>
 </html>
